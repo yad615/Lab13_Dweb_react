@@ -1,0 +1,158 @@
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #0066cc, #004d99);
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    background-color: #f97316;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #ea580c;
+  }
+  
+  /* Features Section */
+  .feature-section {
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .feature-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-icon {
+    color: #1e3a8a;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .feature-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Stats Section */
+  .stats-section {
+    background-color: #004d99;
+    color: white;
+    padding: 4rem 0;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .stat-card {
+    background-color: #0066cc;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  /* Seguridad Banner */
+  .security-banner {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 5px solid #dc2626;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .hero-description {
+      font-size: 1.125rem;
+    }
+  
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
